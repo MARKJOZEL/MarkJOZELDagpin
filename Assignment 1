@@ -1,0 +1,21 @@
+# take the input from user
+year = int(input('Please enter the years: '))
+office = input('Please enter the office name: ')
+# if-else condition
+if (office.upper() == "IT" or office.lower() == "it") or (office.upper() == "ACCT" or office.lower() == "acct") or (office.upper() == "HR" or office.lower() == "hr"):
+    {
+        print("Employee office is: "+ office)
+    }
+else:
+    {
+        print("The wrong office name entered")
+    }
+# if-else condition
+if year >=10:
+    {
+        print("10000 12000 15000")
+    }
+else:
+    {
+        print("5000 6000 7500")
+    } 
